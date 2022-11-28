@@ -18,6 +18,9 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 4a (5G)
 PRODUCT_NAME := evolution_bramble
 
+# Enable Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080

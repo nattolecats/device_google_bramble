@@ -9,3 +9,10 @@ $(call inherit-product, device/google/redbull/device-evolution.mk)
 # HBM
 PRODUCT_PACKAGES += \
     HbmSVManagerOverlay
+    
+# Enable Adaptive Charging
+PRODUCT_COPY_FILES += \
+    device/google/bramble/the_experiences.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/the_experiences.xml
+    
+# Enable Now Playing
+PRODUCT_PACKAGES += NowPlayingOverlay
