@@ -22,4 +22,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     aosp_bramble-userdebug \
-    evolution_bramble-userdebug
+    evolution_bramble-userdebug \
+    evolution_bramble-eng
