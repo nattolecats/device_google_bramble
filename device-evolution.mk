@@ -16,3 +16,6 @@ PRODUCT_COPY_FILES += \
     
 # Enable Now Playing
 PRODUCT_PACKAGES += NowPlayingOverlay
+
+# Properties
+TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
